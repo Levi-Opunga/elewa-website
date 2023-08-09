@@ -1,3 +1,18 @@
 <div class="home-page">
   Elewa Education
+
+
+  <div class="grid grid-cols-2">
+
+  <elewa-website-card
+    *ngFor="let item of [1,2,3,4,5,6,7,8,9,10]"
+    [info]="{
+      title: 'Course Design',
+      description: 'some description and some more random content to display right here',
+      icon: 'https://picsum.photos/200/300'
+    }"
+  >
+  </elewa-website-card>
+  </div>
+
 </div>

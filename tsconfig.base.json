@@ -15,6 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@elewa-website/elements/cards": ["libs/elements/cards/src/index.ts"],
+      "@elewa-website/elements/cards/cards": [
+        "libs/elements/cards/cards/src/index.ts"
+      ],
       "@elewa-website/features/pages/about": [
         "libs/features/pages/about/src/index.ts"
       ],

@@ -1,5 +1,24 @@
 .home-page {
   background-color: var(--elewa-website-color-primary-black);
   height: 100vh;
-  color: white;
+  color: black;
+}
+
+.grid {
+  display: grid;
+  padding: 15px;
+  gap: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+@media (max-width: 768px) {
+  .grid-cols-2 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
 }
